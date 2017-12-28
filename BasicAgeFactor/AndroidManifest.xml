@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicagefactor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.basicagefactor.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.basicagefactor.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.basicagefactor.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.basicagefactor.FourActivity"
+            android:label="@string/title_activity_four" >
+        </activity>
+        <activity
+            android:name="com.example.basicagefactor.FiveActivity"
+            android:label="@string/title_activity_five" >
+        </activity>
+        <activity
+            android:name="com.example.basicagefactor.SixActivity"
+            android:label="@string/title_activity_six" >
+        </activity>
+        <activity
+            android:name="com.example.basicagefactor.SevenActivity"
+            android:label="@string/title_activity_seven" >
+        </activity>
+    </application>
+
+</manifest>
